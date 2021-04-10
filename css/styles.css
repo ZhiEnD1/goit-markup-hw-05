@@ -207,19 +207,25 @@ body {
 
 .work-card .subtext {
   position: absolute;
+  display: flex;
   bottom: 3px;
   left: 0;
   width: 100%;
-  height: 70px;
 
   font-weight: bold;
   font-size: 14px;
-  line-height: 1.14;
-  
+  text-transform: uppercase;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  padding-top: 27px;
+  padding-bottom: 27px;
+
+
 
   background: rgba(47, 48, 58, 0.8);
   color: #FFFFFF;
-  padding: 27px 86px;
+
 }
 
 .team-container {
@@ -467,16 +473,21 @@ body {
   width: 100%;
   height: 100%;
   transform: translateY(100%);
-
 }
 
 .overlay .subtext {
-  padding: 64px 24px;
+  display: flex;
+  padding: 63px 24px;
+  font-style: normal;
+  font-weight: normal;
   font-size: 18px;
   line-height: 1.55;
   letter-spacing: 0.03em;
-
   color: #FFFFFF;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+
 }
 
 
